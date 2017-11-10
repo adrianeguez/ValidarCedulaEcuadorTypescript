@@ -9,14 +9,14 @@ validar-cedula.ts
 
 Para usarlo simplemente importarlo:
 
-```
+```typecscript
 import {validarCedula} from '../ruta/del/archivo/validar-cedula';
 ```
 
 Y ejecutar la función
 
 
-```
+```typescript
 // Ejemplo 
 const cedulaUsuarioValida = validarCedula('1718137159');
 ```
