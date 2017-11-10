@@ -1,6 +1,7 @@
 function validarCedula(cedula: string) {
   // Créditos: Victor Diaz De La Gasca.
   // Autor: Adrián Egüez
+  // Url autor: https://gist.github.com/vickoman/7800717
   // Preguntamos si la cedula consta de 10 digitos
   if (cedula.length === 10) {
 
