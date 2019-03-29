@@ -9,7 +9,7 @@ function validarCedula(cedula: string) {
     const digitoRegion = cedula.substring(0, 2);
 
     // Pregunto si la region existe ecuador se divide en 24 regiones
-    if (digitoRegion >= String(1) && digitoRegion <= String(24)) {
+    if (digitoRegion >= String(0) && digitoRegion <= String(24)) {
 
       // Extraigo el ultimo digito
       const ultimoDigito = Number(cedula.substring(9, 10));
